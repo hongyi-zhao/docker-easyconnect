@@ -149,7 +149,7 @@ docker run --device /dev/net/tun --cap-add NET_ADMIN -ti -e PASSWORD=xxxx -v $HO
 
 ## 参考资料
 
-登陆过程的一个 hack ([docker-root/usr/local/bin/start-sangfor.sh](docker-root/usr/local/bin/start-sangfor.sh))参考了这篇文章：<https://blog.51cto.com/13226459/2476193>。在此对该文作者表示感谢。
+登陆过程的一个 hack ([docker-root/usr/local/bin/start-sangfor.sh](docker-root/usr/local/bin/start-sangfor.sh))参考了这篇文章：<https://www.twblogs.net/a/5e65e6c4bd9eee211685b8cc>,<https://blog.51cto.com/13226459/2476193>。在此对该文作者表示感谢。
 
 ## 版权及许可证
 
