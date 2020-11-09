@@ -6,6 +6,11 @@
 
 经实测，在debian9系统的阿里云服务器上和deepin15.11的桌面版均可正常运行。
 
+For official information about Debian releases, see the following websites for more information: 
+<https://wiki.debian.org/DebianReleases>
+<https://www.debian.org/releases/>
+
+
 ## 依赖项
 
 EasyConnect 有一些依赖项，但它的`deb`包中依赖信息什么都没写。
