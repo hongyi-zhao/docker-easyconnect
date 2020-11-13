@@ -14,7 +14,9 @@ fi
 # 在虚拟网络设备 tun0 打开时运行 proxy 代理服务器
 [ -n "$NODANTED" ] || (while true
 do
-sleep 5
+#https://github.com/Hagb/docker-easyconnect/issues/13#issuecomment-726514378
+# Try to set a relatively short delay between login to EasyConnect and starting danted:
+sleep 1
 [ -d /sys/class/net/tun0 ] && danted
 done
 )&
