@@ -1,6 +1,6 @@
 #For vpn.nxu.edu.cn, the `7.6.7` will cause the problem of the EasyConnect client version does not match the server.
 # EC_VER=7.6.3  # 此变量填写 ec_urls 文件夹中的版本，`7.6.3`或`7.6.7`
-#$ env EC_VER=7.6.3 docker build --network host --build-arg EC_URL=$(cat ec_urls/${EC_VER}.txt) --tag hongyi-zhao/docker-easyconnect -f Dockerfile .
+#$ export EC_VER=7.6.3; docker build --network host --build-arg EC_URL=$(cat ec_urls/${EC_VER}.txt) --tag hongyi-zhao/docker-easyconnect -f Dockerfile .
 
 FROM debian:buster
         
