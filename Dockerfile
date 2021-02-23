@@ -35,6 +35,10 @@ RUN cd tmp &&\
 
 COPY ./docker-root /
 
+RUN rm -f /usr/share/sangfor/EasyConnect/resources/conf/easy_connect.json &&\
+    mv /usr/share/sangfor/EasyConnect/resources/conf/ /usr/share/sangfor/EasyConnect/resources/conf_backup &&\
+    ln -s /root/conf /usr/share/sangfor/EasyConnect/resources/conf
+
 #ENV TYPE="" PASSWORD="" LOOP=""
 #ENV DISPLAY
 
